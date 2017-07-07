@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Elevation -->
+    <dimen name="elevation_2dp">2dp</dimen>
+    <dimen name="elevation_3dp">3dp</dimen>
+    <dimen name="elevation_4dp">4dp</dimen>
+    <dimen name="elevation_6dp">6dp</dimen>
+
+</resources>

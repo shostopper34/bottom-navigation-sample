@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/light_green_primary</item>
+        <item name="colorPrimaryDark">@color/light_green_primary_dark</item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Toolbar" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/light_green_primary</item>
+        <item name="android:elevation" tools:targetApi="lollipop">@dimen/elevation_2dp</item>
+        <item name="android:theme">@style/ToolbarTheme</item>
+        <item name="elevation">@dimen/elevation_2dp</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="theme">@style/ToolbarTheme</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/light_green_primary</item>
+        <item name="android:textColorSecondary">@color/light_green_primary_dark</item>
+        <item name="colorControlActivated">@android:color/white</item>
+    </style>
+
+</resources>

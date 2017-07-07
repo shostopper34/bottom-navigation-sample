@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="light_green_800">#558b2f</color>
+    <color name="light_green_700">#689f38</color>
+    <color name="light_green_primary">#558b2f</color>
+    <color name="light_green_primary_dark">#244d00</color>
+    <color name="light_green_primary_light">#85bb5c</color>
+    <color name="grey_400">#bdbdbd</color>
+</resources>
