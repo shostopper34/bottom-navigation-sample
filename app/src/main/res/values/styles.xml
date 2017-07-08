@@ -25,8 +25,8 @@
     </style>
 
     <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
-        <item name="android:textColorPrimary">@color/light_green_primary</item>
-        <item name="android:textColorSecondary">@color/light_green_primary_dark</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
         <item name="colorControlActivated">@android:color/white</item>
     </style>
 
